@@ -30,7 +30,7 @@ font-weight: bold;
 font-size: x-large;
 font-family: 'Pacifico';
 font-size: 35px;
-color: chocolate;
+color: #E6A65D;
 
 }
 .right-side{
@@ -49,7 +49,7 @@ color: chocolate;
     font-weight: 900;
     font-family: 'Pacifico' cursive;
     font-size: x-large;
-    color: chocolate;
+    color: #D3D3D3;
     cursor: pointer;
 }
 .nav-link ul {
@@ -66,6 +66,7 @@ color: chocolate;
      border: 2px solid;
      cursor: pointer;
 }
+/* Hero Section Container */
 .Hero{
     width: 100%;
     height: 100vh;
@@ -77,4 +78,64 @@ color: chocolate;
     overflow: hidden; 
 }
 
-   
+
+/* Left Content Side */
+.content {
+   padding-top: 150px;
+    padding-left: 40px;
+}
+
+/* Stats Styling */
+.stats {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.stats p {
+    font-size: 14px;
+    line-height: 18px;
+    color:rgb(149, 132, 120);
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.stats span {
+    font-size: 32px; /* Numbers ko bada dikhane ke liye */
+    font-weight: 800;
+    color:light rgb(103, 16, 16);
+    display: block;
+    
+}
+
+/* Main Heading (Coffee Shop) */
+.content h1 {
+    font-size: 80px; /* Bada heading */
+    color: #F5F5DC;
+    margin-bottom: 20px;
+    line-height: 90px;
+}
+
+/* Description Text */
+.description {
+    font-size: 16px;
+    width: 400px; /* Text ki width limit kar di taaki design jaisa dikhe */
+    color: light brown;
+    margin-bottom: 40px;
+}
+
+/* Shop Now Button */
+.shop-btn {
+    padding: 15px 35px;
+    background-color:maroon;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px; /* Round corners */
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
